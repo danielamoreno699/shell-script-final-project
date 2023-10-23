@@ -37,7 +37,7 @@ backupFileName="backup-[$currentTS].tar.gz"
 # To make things easier, we will define some useful variables...
 
 # [TASK 5]
-origAbsPath=``
+origAbsPath=$(pwd)
 
 # [TASK 6]
 cd # <-
