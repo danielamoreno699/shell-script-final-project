@@ -41,7 +41,7 @@ origAbsPath=$(pwd)
 
 # [TASK 6]
 cd # <-
-destDirAbsPath=``
+destDirAbsPath=$(pwd)
 
 # [TASK 7]
 cd # <-
