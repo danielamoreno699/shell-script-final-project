@@ -44,11 +44,11 @@ cd # <-
 destDirAbsPath=$(/mnt/c/Users/us/Documents/projects1/shell-script-final-project/destination_directory)
 
 # [TASK 7]
-cd # <-
-cd # <-
+cd  current_directory
+cd  destination_directory
 
 # [TASK 8]
-yesterdayTS=
+yesterdayTS= (($currentTs - 24 * 60 * 60))
 
 declare -a toBackup
 
