@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# This checks if the number of arguments is correct
-# If the number of arguments is incorrect ( $# != 2) print an error message and exit
+
+
 if [[ $# != 2 ]]; then
   echo "Usage: $0 source_directory destination_directory"
   exit 1
 fi
 
-# This checks if argument 1 and argument 2 are valid directory paths
+
 if [[ ! -d $1 ]] || [[ ! -d $2 ]]; then
   echo "Invalid directory path provided"
   exit 1
