@@ -62,6 +62,6 @@ done
 tar -czvf "$backupFileName" "${toBackup[@]}"
 
 # [TASK 13]
-echo "Backup file $backupFileName created in $origAbsPath"
+echo "Backup file $backupFileName moved to $destDirAbsPath"
 
 # Congratulations! You completed the final project for this course!
